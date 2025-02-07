@@ -1,16 +1,63 @@
+<!--
+exercise3.html
+ENSF 381 Lab 3 Exercise 3
+February 7th, 2025
+
+Kohinoor Chauhan - 30204155
+Sabrina Li - 30173044
+-->
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style3.css">
 
     <title>Exercise 3</title>
     <style>
-    
+        .Nav-Bar {
+            display: flex;
+            flex-direction: row;
+            background-color: #333;
+        }
+        .nav-item {
+            padding: 5px;
+            margin: 20px;
+            border-radius: 5px;
+
+            text-align: center;
+            font-size: 12px;
+            color: white;
+        }
+        .nav-item:hover {
+            background-color: #bdbbbb;
+            
+
+        }
     </style>
 </head>
 <body>
+    <div class="Nav-Bar">
+        <div class="nav-item">
+            <div class="nav-text">
+                SCHULICH School of Engineering
+            </div>
+        </div>
+        <div class="nav-item">
+            Electrical Engineering
+        </div>
+        <div class="nav-item">
+            Chemical Engineering Department
+        </div>
+        <div class="nav-item">
+            Biomedical Engineering Department
+        </div>
+        <div class="nav-item">
+            Department of Geometric Engineering
+        </div>
+    </div>
 
-     <div class="Container">
+    <div class="Container">
         <div class="item">
             <img src="schulich.png">
             <h3>SCHULICH School of Engineering</h3>
