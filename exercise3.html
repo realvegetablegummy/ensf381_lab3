@@ -39,6 +39,10 @@ Sabrina Li - 30173044
             background-color: #bdbbbb;
         }
 
+        .drop-box {
+            display: none;
+            flex-direction: column;
+        }
         .drop-item {
             display: none;
             position: absolute;
@@ -51,16 +55,19 @@ Sabrina Li - 30173044
             min-width: 160px;
 
             text-align: left;
+            color: black;
+
             /* z-index: 1; */
             /* NOTE: controls stack order, higher number, higher on stack */
         }
         .drop-item a {
-            display: block;
+            padding: 0px;
+            margin: 0px;
+
             text-decoration: none;
         }
         .nav-item:hover .drop-item {
-            background-color: #bdbbbb;
-            display: block;
+            display: flex;
         }
     </style>
 </head>
@@ -68,11 +75,12 @@ Sabrina Li - 30173044
     <div class="Nav-Bar">
         <div class="nav-item">
             <a href="https://schulich.ucalgary.ca/" class="nav-item">SCHULICH School of Engineering</a>
+            
             <div class="drop-item">
-                <a>Home</a>
+                <div>Home</div>
+                <div>About</div>
+                <div>Research</div>
             </div>
-            <div class="drop-item">About</div>
-            <div class="drop-item">Research</div>
         </div>
 
         <div class="nav-item">
