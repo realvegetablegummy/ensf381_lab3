@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.table2 {
+    border-spacing: 0px 20px;
+}
+
+.evolution{
+    text-align: center;
+    background-color: darkred;
+}
+
+.changing{
+    text-align: center;
+    background-color: deeppink;
+}
+
+.society{
+    text-align: center;
+    background-color: brown;
+}
+
+.box_text_color{
+    margin: 0px;
+    padding: 10px;
+    color: white;
+}
+
+.td_image_width{
+    width: 570px;
+    height: 400px;
+    display: block;
+}
+.greywords{
+    font-family: arial;
+    font-size: 16px;
+    color: #3d3d3d;
+}
