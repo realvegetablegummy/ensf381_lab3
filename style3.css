@@ -1,3 +1,12 @@
+/* 
+style3.css
+ENSF 381 Lab 3 Exercise 3
+February 7th, 2025
+
+Kohinoor Chauhan - 30204155
+Sabrina Li - 30173044
+*/
+
 .Container{  
     display: flex;
     flex-direction: row;
