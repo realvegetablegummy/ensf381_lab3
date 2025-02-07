@@ -7,11 +7,10 @@ Kohinoor Chauhan - 30204155
 Sabrina Li - 30173044
 */
 
-.Container{  
+.Container{
     display: flex;
     flex-direction: row;
 }
- 
 .item {
     flex: 1;
 

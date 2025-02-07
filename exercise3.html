@@ -39,26 +39,23 @@ Sabrina Li - 30173044
             background-color: #bdbbbb;
         }
 
-        .drop-box {
-            display: none;
-            flex-direction: column;
-        }
-        .drop-item {
+        .Drop-Box {
             display: none;
             position: absolute;
             /* NOTE: absolute -> relative to parent */
+            flex-direction: column;
+
+            margin-top: 10px;
+        }
+        .drop-item{
+            border: 1px solid lightgrey;
             background-color: white;
 
-            /* padding: 5px; */
             padding: 5px;
-            margin-top: 20px;
             min-width: 160px;
 
             text-align: left;
             color: black;
-
-            /* z-index: 1; */
-            /* NOTE: controls stack order, higher number, higher on stack */
         }
         .drop-item a {
             padding: 0px;
@@ -66,7 +63,7 @@ Sabrina Li - 30173044
 
             text-decoration: none;
         }
-        .nav-item:hover .drop-item {
+        .nav-item:hover .Drop-Box{
             display: flex;
         }
     </style>
@@ -76,25 +73,27 @@ Sabrina Li - 30173044
         <div class="nav-item">
             <a href="https://schulich.ucalgary.ca/" class="nav-item">SCHULICH School of Engineering</a>
             
-            <div class="drop-item">
-                <div>Home</div>
-                <div>About</div>
-                <div>Research</div>
+            <div class="Drop-Box">
+                <div class="drop-item">
+                    <a>Home</a>
+                </div>
+                <div class="drop-item">
+                    <a>About</a>
+                </div>
+                <div class="drop-item">
+                    <a>Research</a>
+                </div>
             </div>
         </div>
-
         <div class="nav-item">
             <a href="https://www.ucalgary.ca/future-students/undergraduate/explore-programs/electrical-engineering" class="nav-item">Electrical Engineering</a>
         </div>
-
         <div class="nav-item">
             <a href="https://schulich.ucalgary.ca/chemical-petroleum/home" class="nav-item">Chemical Engineering Department</a>
         </div>
-
         <div class="nav-item">
             <a href="https://schulich.ucalgary.ca/biomedical/home" class="nav-item">Biomedical Engineering Department</a>
         </div>
-
         <div class="nav-item">
             <a href="https://schulich.ucalgary.ca/geomatics" class="nav-item">Department of Geometric Engineering</a>
         </div>
