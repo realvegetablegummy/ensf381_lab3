@@ -7,6 +7,59 @@ Kohinoor Chauhan - 30204155
 Sabrina Li - 30173044
 */
 
+.Nav-Bar {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+}
+.nav-item {
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.nav-item a {
+    padding: 0px;
+    margin: 0px;
+
+    text-decoration: none;
+    /* NOTE: gets rid of underline on link */
+}
+.nav-item:hover{
+    background-color: #bdbbbb;
+}
+
+.Drop-Box {
+    display: none;
+    position: absolute;
+    /* NOTE: absolute -> relative to parent */
+    flex-direction: column;
+
+    margin-top: 10px;
+}
+.drop-item{
+    border: 1px solid lightgrey;
+    background-color: white;
+
+    padding: 5px;
+    min-width: 160px;
+
+    text-align: left;
+    color: black;
+}
+.drop-item a {
+    padding: 0px;
+    margin: 0px;
+
+    text-decoration: none;
+}
+.nav-item:hover .Drop-Box{
+    display: flex;
+}
+
 .Container{
     display: flex;
     flex-direction: row;
